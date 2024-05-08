@@ -2,6 +2,7 @@
 utils.py - Moduł zawierający funkcje pomocnicze do podstawowych operacji matematycznych.
 """
 
+
 def add(a: int, b: int) -> int:
     """
     Dodaje dwie liczby całkowite.
@@ -14,6 +15,7 @@ def add(a: int, b: int) -> int:
         int: Wynik dodawania a i b.
     """
     return a + b
+
 
 def subtract(a: int, b: int) -> int:
     """
@@ -28,6 +30,7 @@ def subtract(a: int, b: int) -> int:
     """
     return a - b
 
+
 def multiply(a: int, b: int) -> int:
     """
     Mnoży dwie liczby całkowite.
@@ -40,6 +43,7 @@ def multiply(a: int, b: int) -> int:
         int: Wynik mnożenia a i b.
     """
     return a * b
+
 
 def divide(a: int, b: int) -> float:
     """

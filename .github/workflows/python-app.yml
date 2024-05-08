@@ -5,7 +5,7 @@ on:
 
 jobs :
   build :
-    runs-on : ubuntu-latest
+    runs-on: ubuntu-latest
     strategy :
       matrix :
         python-version : ["3.11", "3.12"]
@@ -22,7 +22,7 @@ jobs :
         pytest
     - name : Lint with Pylint
       run : |
-        pylint ./CI-CD/utils.py
+        pylint ./utils.py
     - name : Format with Black
       run : |
         black --check .
